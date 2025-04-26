@@ -1,0 +1,13 @@
+body {
+  display: flex;
+}
+
+.Sidebar {
+  display: flex;
+  width: 300px;
+  height: auto;
+}
+
+.Columns {
+  display: flex;
+}
