@@ -12,7 +12,22 @@ body {
   height: 1.625rem;
 }
 
+.right-side {
+  width: 100%;
+  margin-right: -20px;
+}
+
+.heading-top {
+  padding: 1.813rem 0rem 2.313rem 1.5rem;
+  margin: 0px;
+}
+
+.bg-colour {
+  background-color: #364e7e1a;
+  height: 100%;
+}
+
 .Columns {
   display: flex;
-  background-color: #364e7e1a;
+  justify-content: space-around;
 }
