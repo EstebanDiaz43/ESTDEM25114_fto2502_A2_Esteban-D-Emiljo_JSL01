@@ -1,20 +1,38 @@
 body {
   display: flex;
+  margin: 0px;
 }
 
 .Sidebar {
   display: flex;
-  width: 300px;
   height: auto;
 }
 
 .logo-light {
   height: 1.625rem;
+  padding-left: 2.125rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+}
+
+.heading4 {
+  color: #828fa3;
+  font-size: 0.75rem;
+  padding-left: 2rem;
+}
+
+.launch-career {
+  background-color: #635fc7;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem, 875rem 5.75rem 1rem 2rem;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 .right-side {
   width: 100%;
-  margin-right: -20px;
 }
 
 .heading-top {
