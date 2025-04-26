@@ -6,6 +6,7 @@ body {
 .Sidebar {
   display: flex;
   height: auto;
+  border-right: 1px solid #e4ebfa;
 }
 
 .logo-light {
@@ -23,10 +24,11 @@ body {
 
 .launch-career {
   background-color: #635fc7;
-  border: none;
+  border: 0px none #635fc7;
   color: white;
   font-size: 1rem;
-  margin: 1rem, 875rem 5.75rem 1rem 2rem;
+  width: 14rem;
+  height: 2.5rem;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
 }
@@ -43,9 +45,22 @@ body {
 .bg-colour {
   background-color: #364e7e1a;
   height: 100%;
+  border: 1px solid #e4ebfa;
 }
 
 .Columns {
   display: flex;
   justify-content: space-around;
+}
+
+.dot1 {
+  border: 1px solid #49c4e5;
+}
+
+.dot2 {
+  border: 1px solid #8471f2;
+}
+
+.dot3 {
+  border: 1px solid #67e2ae;
 }
