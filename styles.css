@@ -8,6 +8,11 @@ body {
   height: auto;
 }
 
+.logo-light {
+  height: 1.625rem;
+}
+
 .Columns {
   display: flex;
+  background-color: #364e7e1a;
 }
