@@ -16,10 +16,16 @@ body {
   padding-top: 2rem;
 }
 
-.heading4 {
+.heading4v1 {
   color: #828fa3;
   font-size: 0.75rem;
   padding-left: 2rem;
+}
+
+.heading4v2 {
+  color: #828fa3;
+  font-size: 0.75rem;
+  padding-left: 0.5rem;
 }
 
 .launch-career {
@@ -53,14 +59,31 @@ body {
   justify-content: space-around;
 }
 
+.headings {
+  display: flex;
+  align-items: center;
+}
+
 .dot1 {
   border: 1px solid #49c4e5;
+  background-color: #49c4e5;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
 }
 
 .dot2 {
   border: 1px solid #8471f2;
+  background-color: #8471f2;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
 }
 
 .dot3 {
   border: 1px solid #67e2ae;
+  background-color: #67e2ae;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
 }
