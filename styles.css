@@ -98,4 +98,51 @@ body {
   margin-top: 20px;
   width: 280px;
   height: 50px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 376px) {
+  .Sidebar {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .right-side-logo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .heading-top {
+    padding: 1rem 0rem 1rem 0.5rem;
+    margin: 0px;
+    font-size: 18px;
+    width: 150px;
+  }
+
+  .bg-colour {
+    width: 100%;
+  }
+
+  .Columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .tasks {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 376px) {
+  .right-side-logo {
+    display: none;
+  }
 }
