@@ -87,3 +87,15 @@ body {
   width: 15px;
   height: 15px;
 }
+
+.tasks {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  width: 280px;
+  height: 50px;
+}
